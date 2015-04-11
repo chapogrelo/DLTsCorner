@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_row_height"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/drawer_horizontal_padding"
+    android:paddingStart="@dimen/drawer_horizontal_padding"
+    android:paddingRight="@dimen/drawer_horizontal_padding"
+    android:paddingEnd="@dimen/drawer_horizontal_padding"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+    <ImageView
+        android:id="@+id/rowIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_checkbox_blank_circle_white_24dp"/>
+    <TextView
+        android:id="@+id/rowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/drawer_row_mid"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:text="Section 1"
+        android:textColor="@color/drawer_row_color" />
+
+</LinearLayout>

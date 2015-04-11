@@ -1,0 +1,20 @@
+<com.google.samples.apps.iosched.ui.widget.ScrimInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrim_insets"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:fitsSystemWindows="true"
+    app:insetForeground="#4000" >
+
+    <android.support.v7.widget.RecyclerView
+        android:id='@+id/recycler_view'
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#ffffff"
+        android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
+
+
+</com.google.samples.apps.iosched.ui.widget.ScrimInsetsFrameLayout>

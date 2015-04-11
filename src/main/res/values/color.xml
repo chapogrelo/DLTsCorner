@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#424242</color>
+    <color name="ColorPrimaryDark">#212121</color>
+    <color name="accent_color">#448AFF</color>
+    <color name="drawer_row_color">#C0000000</color>
+    <color name="drawer_divider_color">#8A000000</color>
+    <color name="drawer_selected_row_bg">#17000000</color>
+    <color name="drawer_row_bg">#ffffff</color>
+
+</resources>

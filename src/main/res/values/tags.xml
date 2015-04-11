@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="VIEW_TYPE" type="id"/>
+    <item name="SECTION_TYPE" type="id"/>
+</resources>
