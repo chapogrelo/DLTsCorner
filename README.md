@@ -2,7 +2,7 @@
 
 ## Concept
 
-Je me suis mis dans la tête de me mettre au dev android et comme je n'avais pas la moindre idée de quoi faire et que j'avais la page DLTcrew sous les yeux je me suis dis pourquoi pas tenter un mini FB qui regrouperai les délire de JC, un planning des sessions prévues et deux trois autres conneries
+Je me suis mis dans la tête de me mettre au dev android et comme je n'avais pas la moindre idée de quoi faire et que j'avais la page DLTcrew sous les yeux je me suis dis pourquoi pas tenter un mini FB qui regrouperai les délires de JC, un planning des sessions prévues et deux trois autres conneries
 
 
 ## Avancement du projet
