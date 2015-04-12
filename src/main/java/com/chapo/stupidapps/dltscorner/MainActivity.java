@@ -2,18 +2,16 @@ package com.chapo.stupidapps.dltscorner;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.graphics.Rect;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.ViewGroup;
-
-import com.google.samples.apps.iosched.ui.widget.ScrimInsetsFrameLayout;
+import android.widget.Toast;
 
 /**
  * Created by chapo on 09/04/2015.
+ * Activité principale de l'application
+ * met en place le navigation drawer et affiche le fragment concerné au choix d'une section.
  */
 public class MainActivity extends ActionBarActivity
             implements NavigationDrawerFragment.NavigationDrawerCallbacks{
@@ -21,7 +19,6 @@ public class MainActivity extends ActionBarActivity
     private Toolbar toolbar;
     private NavigationDrawerFragment mNavigationDrawerFragment;
 
-    private CharSequence mTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,16 +41,19 @@ public class MainActivity extends ActionBarActivity
         switch(position){
             case (1):
                 fragment = NewsFragment.newInstance("news","test");
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container,fragment )
+                        .commit();
                 break;
             case (2):
                 fragment = PlanningFragment.newInstance("news","test");
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container,fragment )
+                        .commit();
                 break;
             default:
-                fragment = NewsFragment.newInstance("test","test");
+                Toast.makeText(this,"Coming soon",Toast.LENGTH_SHORT);
                 break;
         }
-        fragmentManager.beginTransaction()
-                .replace(R.id.container,fragment )
-                .commit();
     }
 }
